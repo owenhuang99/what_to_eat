@@ -1,0 +1,17 @@
+user_id,age,gender,ethnicity,height,weight,bmi,blood_sugar,blood_pressure,cholesterol,body_fat_pct,diabetes,hypertension,heart_disease,dietary_restriction,dietary_goal,allergies
+1,25,Male,White,70.0,160.0,23.0,95.0,120.0,180.0,15.0,0,0,0,no beef,keep fit,beef
+2,42,Female,Black,64.0,150.0,25.8,105.0,130.0,195.0,28.0,0,1,0,,,
+3,60,Male,Hispanic,68.0,180.0,27.3,130.0,135.0,210.0,30.0,1,1,1,,,
+4,35,Female,Hispanic,66.0,140.0,22.6,90.0,118.0,170.0,22.0,0,0,0,,,
+5,50,Male,Asian,69.0,170.0,25.1,100.0,125.0,200.0,18.0,0,0,0,No Lamb,,
+6,30,Female,White,65.0,130.0,21.6,85.0,115.0,160.0,20.0,0,0,0,Vegan,Weight Loss,
+7,68,Male,Black,67.0,190.0,29.8,140.0,140.0,220.0,32.0,1,1,1,,,
+8,55,Female,Asian,62.0,140.0,25.6,110.0,128.0,205.0,30.0,0,1,0,,,
+9,45,Male,Hispanic,72.0,200.0,27.1,115.0,122.0,190.0,25.0,0,0,0,,,
+10,65,Female,Native American,63.0,155.0,27.5,135.0,132.0,215.0,33.0,1,1,1,,,
+11,29,male,white,180.0,75.0,23.1,95.0,120.0,190.0,18.0,0,0,0,"No Beef, No Pork","Muscle Building, Low Carb",
+12,17,male,,166.0,50.0,18.2,0.0,,0.0,20.0,1,0,0,,,
+13,80,female,,155.0,40.0,16.55,0.0,,0.0,0.0,0,0,0,,,
+14,38,female,asian,165.0,58.0,21.3,90.0,120.0,180.0,22.0,0,0,0,,,
+15,20,other,,180.0,70.0,0.0,0.0,,0.0,0.0,0,0,0,pork,,
+16,30,male,,183.0,83.0,20.0,0.0,,0.0,0.0,0,0,0,,loose weight,lamb
