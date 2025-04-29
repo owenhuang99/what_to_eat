@@ -1,4 +1,4 @@
-# Dine-out Nutritionist
+# Food recommendation agent
 
 This project implements an Agentic AI-powered restaurant ordering assistant that provides user with personalized recommendations which align with users' nutritional needs and preferences.
 
