@@ -102,6 +102,16 @@ src/
    - Receive customized health advice 
    - Generate dish pictures for preview
 
+## License
+
+This project is licensed under the MIT License with the [Commons Clause](https://commonsclause.com/) restriction.
+
+- You may use, modify, and distribute this project **for non-commercial purposes** only.
+- **Commercial use, resale, or offering as a hosted service is prohibited without prior written permission.**
+- See the [LICENSE](./LICENSE) file for full terms.
+
+For licensing inquiries, please contact: hhuang2@tepper.cmu.edu
+
 
 
 
