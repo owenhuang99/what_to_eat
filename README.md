@@ -22,7 +22,7 @@ Notes
 1. Clone the repository
 2. Setup miniconda with python 3.12
    ```bash
-   conda create --name restaurant_ordering_helper python=3.12
+   conda create --name what_to_eat python=3.12
    conda activate restaurant_ordering_helper
    ```
 
