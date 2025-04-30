@@ -6,6 +6,10 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv('.env'))
 
 import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
+import sys
 from pathlib import Path
 import streamlit as st
 import pandas as pd
