@@ -2,6 +2,8 @@
 This file is the main file for the front end of the restaurant ordering helper.
 """
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 import sys
 from pathlib import Path
 import streamlit as st
