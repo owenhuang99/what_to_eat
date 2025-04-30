@@ -2,7 +2,10 @@
 This file is the main file for the front end of the restaurant ordering helper.
 """
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+# Add the project root directory (two levels up from app.py) to sys.path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(current_dir, "..", ".."))
+sys.path.append(project_root)
 
 import sys
 from pathlib import Path
