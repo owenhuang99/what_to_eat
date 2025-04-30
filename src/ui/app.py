@@ -1,8 +1,9 @@
 """
 This file is the main file for the front end of the restaurant ordering helper.
 """
-
-import sys; sys.path.insert(0, './src')
+import os
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv('.env'))
 
 import sys
 from pathlib import Path
