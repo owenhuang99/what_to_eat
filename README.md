@@ -23,7 +23,7 @@ Notes
 2. Setup miniconda with python 3.12
    ```bash
    conda create --name what_to_eat python=3.12
-   conda activate restaurant_ordering_helper
+   conda activate what_to_eat
    ```
 
 3. Install dependencies:
@@ -31,10 +31,15 @@ Notes
    pip install -r requirements.txt
    ```
 4. Set up environment variables:
+   （On MacOS)
    ```bash
    export OPENAI_API_KEY=xxx
    ```
-5. Install Chrome Browser and ChromeDriver
+   (On Windows)
+   ```bash
+   set OPENAI_API_KEY=xxx
+   ```
+6. Install Chrome Browser and ChromeDriver
    - Ensure that the Chrome browser is installed on your system.
    - Install ChromeDriver, which is required for Selenium-based implementations. 
      - Make sure the version of ChromeDriver is compatible with your installed version of Chrome.
@@ -47,12 +52,12 @@ Notes
      chmod +x chromedriver
      ```
 
-6. Install Tesseract OCR (required for menu processing):
+7. Install Tesseract OCR (required for menu processing):
    - On macOS: `brew install tesseract`
    - On Ubuntu: `sudo apt-get install tesseract-ocr`
    - On Windows: Download and install from [Tesseract GitHub](https://github.com/UB-Mannheim/tesseract/wiki)
 
-7. Run the application:
+8. Run the application:
    ```bash
    pip install .
    streamlit run src/ui/app.py
