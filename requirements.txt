@@ -5,6 +5,7 @@ webdriver-manager==4.0.2
 python-dotenv==1.0.0
 pyautogen[openai]==0.8.5
 openai>=1.66.2
+--only-binary=:all:
 Pillow==9.5.0
 tiktoken==0.5.2
 asyncio==3.4.3
