@@ -30,7 +30,7 @@ Notes
    ```bash
    pip install -r requirements.txt
    ```
-4. Set up environment variables:
+4. Set up environment variables:  
    （On MacOS)
    ```bash
    export OPENAI_API_KEY=xxx
