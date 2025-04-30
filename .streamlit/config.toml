@@ -1,0 +1,9 @@
+[server]
+headless = true
+
+[global]
+developmentMode = false
+
+[runner]
+# This is the key fix:
+pythonpath = "src"
