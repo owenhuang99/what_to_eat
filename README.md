@@ -1,8 +1,8 @@
-# Food recommendation agent
+# What to Eat - GenAI Food recommendation agent
 
 This project implements an Agentic AI-powered restaurant ordering assistant that provides user with personalized food recommendations which align with users' nutritional needs, health conditions, and preferences.
 
-Key Features:
+## Key Features:
 - Health Data Integration: Collects and analyzes user health metrics (age, gender, BMI, blood pressure, dietary restrictions, etc.) to provide personalized meal recommendations
 - User Preference Customization: Allows users to set dietary goals, cuisine preferences, and budget ranges for tailored recommendations
 - Interactive Interface: Features a modern chat interface with styled message bubbles for natural conversation, plus a dedicated health & preferences tab for easy profile management
@@ -11,11 +11,21 @@ Key Features:
 - Health Guidance: Offers personalized health advice to support informed menu choices as well as assisting user to make additional orders
 
 
-Technical 
-- The project uses Azure AutoGen for agent build
-- The agent uses Selenium for web automation
-- Health data is stored in CSV format
-- The UI is built using Streamlit
+## Key Technologies
+#### Back End
+- Python 3.12
+- Autogen (OpenAI agent orchestration)
+- Selenium (automated browser control)
+- OpenAI API (GPT-4o-mini)
+- OpenAI Dalle-2 (image generation)
+- PIL / Pillow (image processing)
+#### Front End
+- Streamlit
+
+
+## Agent Architecture
+![image](https://github.com/user-attachments/assets/f511d858-8d3b-4285-8422-c5786e98b5b3)
+
 
 ## Setup
 
@@ -95,6 +105,7 @@ src/
     └── __init__.py
 ```
 
+
 ## Usage
 
 1. Launch the application using the command above (`streamlit run src/ui/app.py`)
@@ -106,6 +117,7 @@ src/
    - Receive personalized food recommendations
    - Receive customized health advice 
    - Generate dish pictures for preview
+
 
 ## License
 
