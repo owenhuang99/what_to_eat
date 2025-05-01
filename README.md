@@ -1,6 +1,6 @@
 # Food recommendation agent
 
-This project implements an Agentic AI-powered restaurant ordering assistant that provides user with personalized recommendations which align with users' nutritional needs and preferences.
+This project implements an Agentic AI-powered restaurant ordering assistant that provides user with personalized food recommendations which align with users' nutritional needs, health conditions, and preferences.
 
 Key Features:
 - Health Data Integration: Collects and analyzes user health metrics (age, gender, BMI, blood pressure, dietary restrictions, etc.) to provide personalized meal recommendations
@@ -11,8 +11,8 @@ Key Features:
 - Health Guidance: Offers personalized health advice to support informed menu choices as well as assisting user to make additional orders
 
 
-Notes
-- The project uses AutoGen for agent build
+Technical 
+- The project uses Azure AutoGen for agent build
 - The agent uses Selenium for web automation
 - Health data is stored in CSV format
 - The UI is built using Streamlit
